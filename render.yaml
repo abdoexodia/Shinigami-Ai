@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: Shinigami-Ai
+    env: python
+    buildCommand: ""
+    startCommand: "bash start.sh"

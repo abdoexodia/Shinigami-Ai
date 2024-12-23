@@ -1,0 +1,68 @@
+/* الأنماط الأساسية */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #343541;
+    color: #ececec;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 90%;
+    max-width: 600px;
+    height: 80%;
+    background-color: #444654;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.chat-container:hover {
+    transform: scale(1.02);
+}
+
+.chat-box {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #343541;
+    border-bottom: 1px solid #40414f;
+}
+
+.input-area {
+    display: flex;
+    padding: 10px;
+    background-color: #40414f;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #555555;
+    color: #ececec;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #19c37d;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #17ab6f;
+}
